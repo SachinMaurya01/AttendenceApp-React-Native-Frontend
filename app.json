@@ -4,7 +4,7 @@
     "slug": "AttendenceApp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/attendence.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -19,12 +19,25 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/attendence.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.sachin_789.AttendenceApp"
     },
+    "scheme": "attendenceapp",
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/attendence.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "b9cb9e79-dfc2-461e-afbd-a3a0264bbe2a"
+      }
     }
   }
 }
